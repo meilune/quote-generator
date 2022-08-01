@@ -8,14 +8,19 @@
     <title>Quote Generator</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="quote-container">
         <div class="wrap">
-            <h1 class="app-name">Code Generator</h1>
+            <h1 class="app-name">Quote Generator</h1>
             <p class="quote-style">"If you can dance and be free and be embarrassed, you can rule the world."</p>
             <h2 class="quote-author">Amy Poehler</h2>
-            <button class="quote-button">Generate Quote</button>
+            <div class="button-container">
+                <button class="twitter-button" id="twitter"><i class="fab fa-twitter"></i></button>
+                <button class="quote-button" id="quote-button">New Quote</button>
+            </div>
+            
         </div>
     </div>
+    <script src="uploads/quotes.js"></script>
     <script src="public/app.js"></script>
 </body>
 </html>

@@ -7,7 +7,7 @@ html {
 body {
     margin: 0;
     min-height: 100vh;
-    background-image: url("uploads/Pink-leaves-vector-graphic.png"); /*freepik licenced image*/
+    background-image: url("/uploads/Pink-leaves-vector-graphic.png"); /*freepik licenced image*/
     font-family: basic-sans, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -50,7 +50,11 @@ p {
         border-radius: 50px;
         background: rgba(250, 223, 229, 0.5)
     }
-    .quote-button {
+    .button-container {
+        display: flex;
+        justify-content: space-between;
+    }
+    .quote-button, .twitter-button {
         background-color:#643843;
         border: none;
         border-radius: 50px;
@@ -61,6 +65,11 @@ p {
     .quote-button:hover {
         background-color:#4a262f;
         cursor: pointer;
+    }
+    .twitter-button:hover {
+        background-color:#4a262f;
+        cursor: pointer;
+        color: #1d9bf0;
     }
 }
 
