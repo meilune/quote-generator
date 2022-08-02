@@ -10,12 +10,15 @@
 <body>
     <div class="container" id="quote-container">
         <div class="wrap">
-            <h1 class="app-name">Quote Generator</h1>
-            <p class="quote-style">"If you can dance and be free and be embarrassed, you can rule the world."</p>
-            <h2 class="quote-author">Amy Poehler</h2>
+            <h1 class="app-name">Female Voices</h1>
+            <p class="quote-style" id="quote-text"></p>
+            <h2 class="quote-author" id="quote-author"></h2>
             <div class="button-container">
-                <button class="twitter-button" id="twitter"><i class="fab fa-twitter"></i></button>
-                <button class="quote-button" id="quote-button">New Quote</button>
+                <button class="twitter-button" id="twitter">
+                    <i class="fab fa-twitter">
+                    </i>
+                </button>
+                <button class="quote-button" id="quote-button" onClick="refreshPage()">New Quote</button>
             </div>
             
         </div>
