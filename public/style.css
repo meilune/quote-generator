@@ -33,6 +33,8 @@ h2 {
 p {
   font-size: 2rem;
   padding-top: 2rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .container {
@@ -84,5 +86,41 @@ p {
 .container .twitter-button:hover {
   background-color: #4a262f;
   cursor: pointer;
+}
+
+.loader {
+  max-width: 700px;
+  margin: auto;
+  border: 16px solid rgba(255, 255, 255, 0.5);
+  /* Light grey */
+  border-top: 16px solid #643843;
+  /* Red */
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+          animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 /*# sourceMappingURL=style.css.map */
