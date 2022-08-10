@@ -1,4 +1,4 @@
-A project to enhance my JavaScript abilities, train and learn more. Aim is to create a quote generator that would generate a new quote on a click.
+A project to enhance my JavaScript abilities, train and learn more. Aim is to create a quote generator that would generate a new quote on a click. Project adapted to suit my style and showcase my values.
 
 Check out how it works here: https://meilune.github.io/quote-generator/ 
 
